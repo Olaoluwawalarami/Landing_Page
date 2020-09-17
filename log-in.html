@@ -19,11 +19,22 @@
           		<h3 class="welcome-text"><strong>Welcome Back!!!! Please Log-in to continue your surfing.</strong></h3>
         	
 			<form action="home.html">
-				Email: <input type="email" name="email" required><br>
-				Password: <input type="password" name="password" required><br>
-				<a href="home.html"><button class="btn btn-primary btn-xl">Log in</button></a>
+				<div class="form-label-group">
+    				<input type="email" id="inputEmail" class="form-control" placeholder="Email address"required autofocus>
+    				<label for="inputEmail">Email address</label>
+  				</div>
+				<div class="form-label-group">
+    				<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+    				<label for="inputPassword">Password</label>
+  				</div>
+  				<div class="checkbox mb-3">
+    				<label>
+      					<input type="checkbox" value="remember-me"> Remember me
+    				</label>
+  				</div>
+				<a href="home.html"><button class="btn btn-xl btn-primary btn-block" type="submit">Log in</button></a>
 			
-			<h6>Haven't been here before? <a href="sign-up.html">sign-up.</a></h6>
+			<h6>Haven't been here before? <a href="sign-up.html">Sign-up.</a></h6>
 			</form>
 		</header>
 		</div>
