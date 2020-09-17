@@ -68,3 +68,7 @@ input{
 .btn-xl {
   padding: 1rem 2rem;
 }
+button{
+  margin: 10px;
+  width: 250px;
+}
