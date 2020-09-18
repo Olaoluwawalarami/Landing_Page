@@ -132,5 +132,5 @@ footer {
  **********************************************************************/
 .blue {
     background: #7abcff; 
-    background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%);
+    background: linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%);
 }
