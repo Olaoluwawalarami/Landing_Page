@@ -21,7 +21,7 @@ var newsFeed = [
 
 
 function validUser(username, password) {
-	for(var i=0; i < database.lenght; i++) {
+	for(var i=0; i < database.length; i++) {
 		if(database[i].username === username &&
 			database[i].password === password){
 			return true;
@@ -34,7 +34,7 @@ function validUser(username, password) {
 function signIn(username, password) {
 	
 	if (validUser(username, password)) {
-		console.log(newsFeed);
+		window.location.assign('home.html');
 	} else {
 		alert("Wrong username or password!");
 	}
