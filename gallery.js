@@ -1,6 +1,8 @@
+var answer = ['regular', 'Regular', 'First timer', 'First Timer', 'first timer'];
 
+function user()
 
-var answer = [
+/**var answer = [
   {
     regular: "regular",
   },
@@ -23,5 +25,5 @@ function sayHello() {
   }
 }
 
-sayHello();
+sayHello();*/
 
