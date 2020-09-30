@@ -9,7 +9,7 @@ var database = [
 	}
 ];
 
-var newsFeed = [
+/**var newsFeed = [
 	{
 		htmlPage: "home.html"
 	},
@@ -17,10 +17,10 @@ var newsFeed = [
 		username: "Maj. Kudaisi",
 		timeline: "In my opinion, Pte. Temmy is trying her best to be a good soldier"
 	}
-];
+];*/
 
 
-function validUser(username, password) {
+function validateUser(username, password) {
 	for(var i=0; i < database.length; i++) {
 		if(database[i].username === username &&
 			database[i].password === password){
@@ -33,10 +33,10 @@ function validUser(username, password) {
 
 function signIn(username, password) {
 	
-	if (validUser(username, password)) {
+	if (validateUser(username, password)) {
 		window.location.assign('home.html');
 	} else {
-		alert("Wrong username or password!");
+		alert("Wrong username or password! Please sign in.")
 	}
 }
 
