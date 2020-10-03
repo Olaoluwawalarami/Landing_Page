@@ -15,7 +15,6 @@ body {
 .zone:hover {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
-
 /***********************************************************************
  *  Nav Bar
  **********************************************************************/
@@ -51,47 +50,40 @@ a {
   top: 0;
   width: 100%;
 }
-
-/***********************************************************************
- *  Cover 
- **********************************************************************/
+/*******************************************
+	TEXT
+*****************************************/
 .container {
-    height: 70vh; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	position: relative;
+	overflow: hidden;
 }
 
-.cover {
-    width: 30rem;
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 80px;
 }
 
-/***********************************************************************
- *  Grid Panel
- **********************************************************************/
-.grid-wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-gap: 20px;
+p{
+	font-size: 20px;
+}
+/* IMAGE */
+img {
+	width: 400px;
+	height: 300px;
+	margin: 10px;
+}
+.img1{
+	float: right;
 }
 
-.box {
-    background-color: #444;
-    padding: 130px;
-    margin: 20px;
-}
-
-.box > img {
-    width: 100%;
-}
-
-.box:hover {
-    transform: rotate(5deg);
-}
-
-.box > img {
-    width: 100%;
-    height: auto;
+.img2{
+	float: left;
 }
 
 /***********************************************************************
@@ -101,6 +93,7 @@ footer {
     text-align: center;
     background-color: #444;
 }
+
 
 /*Shiny-Css-Buttons*/
 /***********************************************************************
