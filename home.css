@@ -97,9 +97,44 @@ a {
 /***********************************************************************
  *  Footer 
  **********************************************************************/
-footer {
-    text-align: center;
-    background-color: #444;
+.footer {
+}
+.footer_resize {
+    margin:0 auto;
+    padding:0;
+    width:920px;
+    line-height:1.5em;
+    color:#7e7e7e;
+}
+.footer_resize p {
+    margin:10px 0;
+    padding:0;
+    line-height:normal;
+    white-space:nowrap;
+    text-indent:inherit;
+}
+.footer_resize a {
+    color:#6baed9;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    border:none;
+    text-decoration:underline;
+    background-color:transparent;
+}
+.footer_resize a:hover {
+    color:#6baed9;
+    background-color:transparent;
+    text-decoration:none;
+}
+.footer_resize .lf {
+    float:left;
+}
+.footer_resize .rf {
+    float:right;
+}
+a {
+    outline:none;
 }
 
 /*Shiny-Css-Buttons*/
@@ -115,16 +150,16 @@ footer {
  *  Red Background
  **********************************************************************/
 .red {
-    background: #C655BE; 
-    background: linear-gradient(top, #C655BE 0%, #cf0404 100%);
+    background: #ee4b08; 
+    background: linear-gradient(top, #ee4b08 0%, #F05F44 100%);
 }
 
 /***********************************************************************
- *  Yellow Background
+ *  Black Background
  **********************************************************************/
-.yellow {
-    background: #F3AAAA; 
-    background: linear-gradient(top, #F3AAAA 0%, #febf04 100%);
+.black {
+    background: #161616; 
+    background: linear-gradient(top, #161616 0%, #febf04 100%);
 }
 
 /***********************************************************************
