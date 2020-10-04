@@ -75,6 +75,9 @@ p{
 	margin: 20px;
 
 }
+.each{
+  flex: inline;
+}
 /* IMAGE */
 img {
 	width: inherit;
