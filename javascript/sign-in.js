@@ -9,16 +9,6 @@ var database = [
 	}
 ];
 
-/**var newsFeed = [
-	{
-		htmlPage: "home.html"
-	},
-	{
-		username: "Maj. Kudaisi",
-		timeline: "In my opinion, Pte. Temmy is trying her best to be a good soldier"
-	}
-];*/
-
 
 function validateUser(username, password) {
 	for(var i=0; i < database.length; i++) {
